@@ -28,7 +28,7 @@ public class Task1_BrowserMethods {
     driver.navigate().back();
     System.out.println("The title of the 2nd page: " + driver.getTitle());
 
-    // go back using back() method and print 1st website URL
+    // go back using back() method and print the  URL for the 1st website
     driver.navigate().back();
     System.out.println("The current URL: " + driver.getCurrentUrl());
 

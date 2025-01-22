@@ -62,7 +62,7 @@ public class Task2_NewToursRegistrationForm {
         // wait for 2 seconds
         Thread.sleep(2000);
 
-        // get current url
+        // get  url (current)
         String currentURL = driver.getCurrentUrl();
 
         // verify registration was successful
