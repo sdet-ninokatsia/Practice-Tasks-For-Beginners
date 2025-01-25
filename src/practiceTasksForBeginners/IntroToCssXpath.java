@@ -13,6 +13,9 @@ public class IntroToCssXpath {
         // Go to url: https://magento.softwaretestingboard.com/
         driver.get("https://magento.softwaretestingboard.com/");
 
+        // Optional: Maximize Window
+       driver.manage().window().maximize();
+
         //Locate SignIn button and click on it
         WebElement signIn = driver.findElement(By.xpath("//header[@class = 'page-header']//a[contains(text(), 'Sign In')]"));
         signIn.click();
